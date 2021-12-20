@@ -5,6 +5,8 @@ let image2 = document.querySelector(".img2");
 let testoutput1 = document.querySelector("#testing1");
 let testoutput2 = document.querySelector("#testing2");
 let heading = document.querySelector("h1");
+const buttons = document.querySelector("btn");
+
 
 testoutput1.innerHTML = randomNumber1;
 testoutput2.innerHTML = randomNumber2;
@@ -60,3 +62,12 @@ else if (randomNumber1 < randomNumber2){
 else {
     heading.innerHTML = "It's a draw!";
 }
+
+// function reload() {
+//     return  window.location.reload();
+// }
+
+// buttons.addEventListener("click", reload, false);
+
+
+
